@@ -9,12 +9,14 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/Fond" element={<Home />} />
-        <Route path="/Help" element={<Help />} />
-        <Route path="/Questions" element={<Questions />} />
-        <Route path="/Support" element={<Support />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/Fond" element={<Home />} />
+          <Route path="/Help" element={<Help />} />
+          <Route path="/Questions" element={<Questions />} />
+          <Route path="/Support" element={<Support />} />
+        </Routes>
+      </main>
     </>
   );
 }
