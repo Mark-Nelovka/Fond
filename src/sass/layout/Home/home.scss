@@ -1,3 +1,224 @@
-.background {
-  margin-left: 70px;
+.hero-container {
+  position: relative;
+  width: 400px;
+  // margin: 0 auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  margin-right: auto;
+  & > img {
+    height: 300px;
+    width: 400px;
+  }
+
+  // & > h1 {
+  //   font-family: "Gotham";
+  //   font-weight: bold;
+  //   color: #fff;
+  //   line-height: 17px;
+  //   font-size: 16px;
+  // }
+
+  // & > h2 {
+  //   font-family: "Gotham";
+  //   font-weight: bold;
+  //   color: #fff;
+  //   line-height: 17px;
+  //   font-size: 36px;
+  // }
+
+  // & > h1 {
+  //   position: absolute;
+  //   top: 95px;
+  //   left: 30px;
+  // }
+
+  // & > h2 {
+  //   position: absolute;
+  //   top: 175px;
+  //   left: 30px;
+  // }
+
+  @media screen and (min-width: 580px) {
+    width: 600px;
+    // margin: 0 auto;
+    & > img {
+      height: 500px;
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    // & > h1 {
+    //   line-height: 1.22;
+    //   font-size: 26px;
+    // }
+
+    // & > h2 {
+    //   line-height: 1.22;
+    //   font-size: 54px;
+    // }
+
+    // & > h1 {
+    //   position: absolute;
+    //   top: 200px;
+    //   left: 30px;
+    // }
+
+    // & > h2 {
+    //   position: absolute;
+    //   top: 300px;
+    //   left: 30px;
+    // }
+  }
+  @media screen and (min-width: 1100px) {
+    width: 1000px;
+    // margin: 0 auto;
+    & > img {
+      display: block;
+      // margin: 0 auto;
+      height: 800px;
+      width: 1000px;
+    }
+
+    // & > h1 {
+    //   line-height: 1.22;
+    //   font-size: 32px;
+    // }
+
+    // & > h2 {
+    //   line-height: 1.22;
+    //   font-size: 64px;
+    // }
+
+    // & > h1 {
+    //   position: absolute;
+    //   top: 400px;
+    //   left: 30px;
+    // }
+
+    // & > h2 {
+    //   position: absolute;
+    //   top: 500px;
+    //   left: 30px;
+    // }
+  }
+}
+
+.about-foto_container {
+  width: 400px;
+  margin: 0 auto;
+  & > img {
+    display: none;
+  }
+  & > img:last-child {
+    display: block;
+    width: 400px;
+    height: 300px;
+  }
+  @media screen and (min-width: 580px) {
+    width: 600px;
+    & > img:last-child {
+      display: block;
+      width: 600px;
+      height: 500px;
+    }
+  }
+  @media screen and (min-width: 1099px) {
+    width: 800px;
+    & > img:last-child {
+      display: block;
+      width: 800px;
+      // height: 700px;
+    }
+  }
+}
+
+.about-container {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 0 20px;
+  transform: translateY(-35px);
+  @media screen and (min-width: 580px) {
+    max-width: 600px;
+  }
+  @media screen and (min-width: 1099px) {
+    max-width: 700px;
+    transform: translateY(-55px);
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background: rgba(55, 61, 77, 0.99);
+  padding: 17px 24px 35px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0;
+  border: 1px solid #373d4d;
+  & > p {
+    font-family: "Gotham";
+    max-width: 632px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    color: #fff;
+  }
+  @media screen and (min-width: 580px) {
+    padding: 25px;
+  }
+  @media screen and (min-width: 1099px) {
+    // max-width: 700px;
+    padding: 64px 80px 86px 80px;
+    // display: flex;
+    // flex-direction: column;
+    // background: rgba(55, 61, 77, 0.8);
+    // border: 1px solid #373d4d;
+    // border-bottom: 0;
+    // backdrop-filter: blur(20px);
+    // border-top-left-radius: 10px;
+    // border-top-right-radius: 10px;
+    @media screen and (min-width: 1099px) {
+      & > p:first-child {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.foto-about-sub_container {
+  width: 400px;
+  margin: 0 auto;
+  & > img {
+    display: block;
+    max-width: 100%;
+  }
+  & > p {
+    font-family: "Gotham";
+    max-width: 632px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    color: #25282a;
+    padding: 25px 0;
+  }
+  & > p:first-child {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 580px) {
+    width: 600px;
+    margin: 0 auto;
+  }
+  & > p {
+    padding: 37px 14px 0 14px;
+  }
+  @media screen and (min-width: 1099px) {
+    width: 700px;
+    margin: 0 auto;
+    & > p {
+      padding: 67px 60px 0 60px;
+    }
+  }
 }

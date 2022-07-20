@@ -20,7 +20,13 @@ export default function Header() {
             to="/Fond"
             className={({ isActive }) => `${isActive && "#"}`}
           >
-            <img src={Logo} alt="Logo" width="150" height="80" />
+            <img
+              className="nav_logo"
+              src={Logo}
+              alt="Logo"
+              width="150"
+              height="80"
+            />
           </NavLink>
 
           <div className={modal && "nav_container-list"}></div>

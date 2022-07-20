@@ -3,6 +3,7 @@ import Home from "./Components/Home";
 import Help from "./Components/Help";
 import Questions from "./Components/Questions";
 import Support from "./Components/Support";
+import Footer from "./Components/Footer";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Support" element={<Support />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }
