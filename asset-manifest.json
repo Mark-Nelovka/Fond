@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Fond/static/css/main.8e8dc620.css",
-    "main.js": "/Fond/static/js/main.519cfec3.js",
+    "main.css": "/Fond/static/css/main.04e5aa47.css",
+    "main.js": "/Fond/static/js/main.820ae0a4.js",
     "static/media/foto-1.jpg": "/Fond/static/media/foto-1.449969b485813e1bb2fe.jpg",
     "static/media/foto-4.jpg": "/Fond/static/media/foto-4.b53735d4230461a0a74d.jpg",
     "static/media/foto-3.jpg": "/Fond/static/media/foto-3.7140ecad672f039e8d0a.jpg",
     "static/media/Hero.jpg": "/Fond/static/media/Hero.71129976186e57c4de07.jpg",
     "static/media/ДАХ.jpg": "/Fond/static/media/ДАХ.2ccd7f2c5c1df63981c8.jpg",
     "index.html": "/Fond/index.html",
+    "static/media/arrow-down.svg": "/Fond/static/media/arrow-down.1df54d2043a10789b5a1a4aafe81ff20.svg",
+    "static/media/arrow-up.svg": "/Fond/static/media/arrow-up.a48e9bcee9fdb6575ea3cb2e1ae3f368.svg",
     "static/media/burger-menu.svg": "/Fond/static/media/burger-menu.1dc43ecc6a294238c9e12147aac019fe.svg",
-    "main.8e8dc620.css.map": "/Fond/static/css/main.8e8dc620.css.map",
-    "main.519cfec3.js.map": "/Fond/static/js/main.519cfec3.js.map"
+    "main.04e5aa47.css.map": "/Fond/static/css/main.04e5aa47.css.map",
+    "main.820ae0a4.js.map": "/Fond/static/js/main.820ae0a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e8dc620.css",
-    "static/js/main.519cfec3.js"
+    "static/css/main.04e5aa47.css",
+    "static/js/main.820ae0a4.js"
   ]
 }
