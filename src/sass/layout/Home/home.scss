@@ -166,6 +166,9 @@
   }
   @media screen and (min-width: 580px) {
     padding: 25px;
+    & > p {
+      max-width: 580px;
+    }
   }
   @media screen and (min-width: 1099px) {
     // max-width: 700px;
