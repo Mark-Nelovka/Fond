@@ -104,29 +104,29 @@
 }
 
 .about-foto_container {
-  width: 400px;
+  max-width: 320px;
   margin: 0 auto;
   & > img {
     display: none;
   }
   & > img:last-child {
     display: block;
-    width: 400px;
-    height: 300px;
+    width: 320px;
+    // height: 300px;
   }
   @media screen and (min-width: 580px) {
-    width: 600px;
+    max-width: 580px;
     & > img:last-child {
-      display: block;
-      width: 600px;
-      height: 500px;
+      // display: block;
+      width: 580px;
+      // height: 500px;
     }
   }
   @media screen and (min-width: 1099px) {
-    width: 800px;
+    max-width: 1120px;
     & > img:last-child {
-      display: block;
-      width: 800px;
+      // display: block;
+      width: 1120px;
       // height: 700px;
     }
   }
@@ -134,14 +134,14 @@
 
 .about-container {
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 320px;
   padding: 0 20px;
   transform: translateY(-35px);
   @media screen and (min-width: 580px) {
-    max-width: 600px;
+    max-width: 580px;
   }
   @media screen and (min-width: 1099px) {
-    max-width: 700px;
+    max-width: 1024px;
     transform: translateY(-55px);
   }
 }
@@ -157,7 +157,7 @@
   border: 1px solid #373d4d;
   & > p {
     font-family: "Gotham";
-    max-width: 632px;
+    max-width: 320px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -179,6 +179,14 @@
     // border-top-left-radius: 10px;
     // border-top-right-radius: 10px;
     @media screen and (min-width: 1099px) {
+      & > p {
+        max-width: 1024px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        color: #fff;
+      }
       & > p:first-child {
         font-size: 30px;
         margin-bottom: 20px;
@@ -188,15 +196,41 @@
 }
 
 .foto-about-sub_container {
-  width: 400px;
+  width: 320px;
   margin: 0 auto;
   & > img {
     display: block;
-    max-width: 100%;
+    width: 320px;
   }
+
+  & > p:first-child {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 580px) {
+    width: 580px;
+    & > img {
+      width: 580px;
+    }
+    & > p {
+      width: 580px;
+      padding: 37px 14px 0 14px;
+    }
+  }
+
+  @media screen and (min-width: 1099px) {
+    width: 1024px;
+
+    & > img {
+      width: 1024px;
+    }
+  }
+}
+
+.qwe {
+  max-width: 320px;
   & > p {
     font-family: "Gotham";
-    max-width: 632px;
+    max-width: 320px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -204,21 +238,21 @@
     color: #25282a;
     padding: 25px 0;
   }
-  & > p:first-child {
-    font-size: 30px;
-  }
   @media screen and (min-width: 580px) {
-    width: 600px;
-    margin: 0 auto;
-  }
-  & > p {
-    padding: 37px 14px 0 14px;
+    max-width: 580px;
+    & > p {
+      max-width: 580px;
+      padding: 37px 14px 0 14px;
+      font-size: 16px;
+    }
   }
   @media screen and (min-width: 1099px) {
-    width: 700px;
-    margin: 0 auto;
+    max-width: 1024px;
+    // padding: 67px 60px 0 60px;
     & > p {
+      max-width: 1024px;
       padding: 67px 60px 0 60px;
+      font-size: 16px;
     }
   }
 }
